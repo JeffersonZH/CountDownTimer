@@ -2,7 +2,7 @@
 //  TimerAssistant.m
 //  CountDownTimer
 //
-//  Created by an on 16/6/22.
+//  Created by JeffersonZH on 16/6/22.
 //  Copyright © 2016年 a. All rights reserved.
 //
 
