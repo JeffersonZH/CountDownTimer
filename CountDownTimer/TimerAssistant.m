@@ -13,7 +13,7 @@ NSMutableDictionary * timerIntervalsDic;
 //timer字典
 NSMutableDictionary * timersDic;
 //倒计时总时间
-NSInteger countDownSecond = 60;
+NSInteger countDownSecond = 10;
 
 @implementation TimerAssistant
 

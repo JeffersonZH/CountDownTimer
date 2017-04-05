@@ -1,2 +1,3 @@
 # CountDownTimer
 CountDownTimer
+CountDownTimer.gif

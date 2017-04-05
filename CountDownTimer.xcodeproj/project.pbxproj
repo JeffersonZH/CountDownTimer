@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1EE3061E94F1BF002773CE /* CountDownTimer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2C1EE3051E94F1BF002773CE /* CountDownTimer.gif */; };
 		A101DB0E1D1A2A6C00D4EB49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A101DB0D1D1A2A6C00D4EB49 /* main.m */; };
 		A101DB111D1A2A6C00D4EB49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A101DB101D1A2A6C00D4EB49 /* AppDelegate.m */; };
 		A101DB191D1A2A6C00D4EB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A101DB181D1A2A6C00D4EB49 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1EE3051E94F1BF002773CE /* CountDownTimer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CountDownTimer.gif; sourceTree = "<group>"; };
 		A101DB091D1A2A6C00D4EB49 /* CountDownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A101DB0D1D1A2A6C00D4EB49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A101DB0F1D1A2A6C00D4EB49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,9 +88,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C1EE3041E94F171002773CE /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				2C1EE3051E94F1BF002773CE /* CountDownTimer.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
 		A101DB001D1A2A6C00D4EB49 = {
 			isa = PBXGroup;
 			children = (
+				2C1EE3041E94F171002773CE /* Gif */,
 				A101DB0B1D1A2A6C00D4EB49 /* CountDownTimer */,
 				A101DB251D1A2A6C00D4EB49 /* CountDownTimerTests */,
 				A101DB301D1A2A6C00D4EB49 /* CountDownTimerUITests */,
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A101DB7F1D1A7DAC00D4EB49 /* TimerViewController.xib in Resources */,
+				2C1EE3061E94F1BF002773CE /* CountDownTimer.gif in Resources */,
 				A101DB7A1D1A7B9D00D4EB49 /* BaseViewController.xib in Resources */,
 				A101DB1C1D1A2A6C00D4EB49 /* LaunchScreen.storyboard in Resources */,
 				A101DB191D1A2A6C00D4EB49 /* Assets.xcassets in Resources */,
